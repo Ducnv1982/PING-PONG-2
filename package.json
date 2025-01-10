@@ -8,10 +8,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
     "express": "^4.21.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ducnv1982/PING-PONG-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ducnv1982/PING-PONG-2/issues"
+  },
+  "homepage": "https://github.com/Ducnv1982/PING-PONG-2#readme",
+  "description": ""
 }
