@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff url('/public/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 31px; /* Giữ kích thước font chữ */
+    color: #1e7b34; /* Màu xanh lá tối hơn (thay thế mã màu cũ) */
+    margin-bottom: 20px; /* Khoảng cách dưới */
+}
+
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.form-section {
+    flex: 1;
+    margin: 10px;
+    background: rgba(200, 200, 200, 0.8); /* Màu ghi với độ trong suốt 20% */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: auto;
+
+    /* Căn giữa toàn bộ nội dung theo chiều ngang */
+    text-align: center; 
+}
+
+form input, form button {
+    width: 80%; /* Chiều rộng hợp lý */
+    margin: 10px 0; /* Khoảng cách giữa các phần tử */
+    text-align: center; /* Căn chữ trong ô nhập liệu */
+}
+
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.link-section a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-section a:hover {
+    background-color: #218838;
+}
+
+.logo img {
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+}
